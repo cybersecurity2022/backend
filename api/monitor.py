@@ -71,6 +71,7 @@ def scrap_page(url:str, current_user: User = Depends(get_current_user)):
     # full website scrape
     # with open("website.html", 'w') as file:
     #     file.write(soup.prettify())
+    # This is work
 
     """
         save complete html of the scraping website on the scraped_pages directory
