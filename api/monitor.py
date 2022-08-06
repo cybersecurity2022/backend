@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from fastapi import APIRouter, Depends
 import requests
 
-# from model.Predictions import detect_defacement
+# from model.Predictions import detect_defacements
 from models import User
 from schemas.users import url_in_json
 from utils import get_current_user
